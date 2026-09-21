@@ -10,7 +10,6 @@ function App() {
   return (
     <div style={styles.page}>
 
-      {/* Navigation */}
       <nav style={styles.navbar}>
         <h2 style={styles.logo}>NBE CONSULTANTS</h2>
 
@@ -23,7 +22,7 @@ function App() {
         </div>
       </nav>
 
-      {/* Home */}
+     
       <section id="home" style={styles.hero}>
         <div style={styles.heroContent}>
           <h1 style={styles.heroTitle}>
@@ -49,7 +48,7 @@ function App() {
         </div>
       </section>
 
-      {/* About */}
+     
       <section id="about" style={styles.section}>
         <h2 style={styles.heading}>About NBE Consultants</h2>
 
@@ -65,7 +64,7 @@ function App() {
         </p>
       </section>
 
-      {/* Services */}
+     
       <section id="services" style={styles.services}>
         <h2 style={styles.heading}>Our Services</h2>
 
@@ -106,7 +105,7 @@ function App() {
         </div>
       </section>
 
-      {/* Projects */}
+      
       <section id="projects" style={styles.section}>
         <h2 style={styles.heading}>Our Projects</h2>
 
@@ -139,7 +138,7 @@ function App() {
         </div>
       </section>
 
-      {/* Contact */}
+      
       <section id="contact" style={styles.contact}>
         <h2 style={styles.heading}>Contact Us</h2>
 
@@ -160,7 +159,7 @@ function App() {
         )}
       </section>
 
-      {/* Footer */}
+      
       <footer style={styles.footer}>
         <h3>NBE CONSULTANTS</h3>
         <p>Building Ideas Into Reality</p>
@@ -172,7 +171,7 @@ function App() {
 }
 
 
-/* Website Styles */
+
 
 const styles = {
   page: {
